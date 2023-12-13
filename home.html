@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Vera Furniture Home </title>
+    <link rel="icon" href="/assets/chair-solid.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="assets/homestyle.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d2f4450818.js" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
+</head>
+
+<body>
+    <nav class="navegador">
+        <h3>Vera Furniture</h3>
+        <h3> Mas productos </i></h3>
+        <h3> Contacto </i></h3>
+        <h3> <i class="fa-solid fa-chair"> </i></h3>
+    </nav>
+
+    <div class="contenedor">
+        <div class="img">
+            <img src="assets/imagenes/apoyapies.jpg"> <br>
+            <p>Apoyapies $500</p>
+            <button onclick="agregarAlCarrito('apoyapies', 500)">Agregar</button> <br>
+
+        </div>
+        <div class="img">
+            <img src="assets/imagenes/chifonier.jpg"><br>
+            <p> Chifonier $1500</p>
+            <button onclick="agregarAlCarrito('Chifonier', 1500)"> Agregar </button> <br>
+
+        </div>
+        <div class="img">
+            <img src="assets/imagenes/comedor.jpg"><br>
+            <p>Juego de comedor $5000</p>
+            <button onclick="agregarAlCarrito('Juego de comedor', 5000)">Agregar</button> <br>
+
+        </div>
+        <div class="img">
+            <img src="assets/imagenes/espejo.jpg">
+            <p>Espejo $250</p>
+            <button onclick="agregarAlCarrito('Espejo', 250)">Agregar</button>
+        </div>
+        <div class="img">
+            <img src="assets/imagenes/mesa.jpg"><br>
+            <p>Mesa $750</p>
+            <button onclick="agregarAlCarrito('Mesa', 750)"> Agregar</button> <br> <br>
+
+        </div>
+        <div class="img">
+            <img src="assets/imagenes/recibidor.jpg"><br>
+            <p>Recibidor $5600</p>
+            <button onclick="agregarAlCarrito('Recibidor', 5600)">Agregar</button> <br>
+
+        </div>
+        <div class="img">
+            <img src="assets/imagenes/sillacomedor.jpg"><br>
+            <p>Silla $300</p>
+            <button onclick="agregarAlCarrito('Silla', 300)">Agregar</button> <br>
+
+        </div>
+        <div class="img">
+            <img src="assets/imagenes/sillon.jpg"><br>
+            <p>Sillon $350</p>
+            <button onclick="agregarAlCarrito('Sillon', 350)">Agregar</button> <br>
+
+        </div>
+    </div>
+    <div id="carrito">
+        
+    </div>
+
+    <div class="comentarios">
+        <div class="comentario">
+            <div class="cajita">
+                <label>Dejanos tu comentario!</label>
+                <input type="text"></input>
+                <button>Enviar </button>
+            </div>
+        </div>
+        <div class="comentario" class="viejos">
+            <p>Cata:Hermosa la silla Windsor. La amo</p>
+            <p id="nuevo"></p>
+            <p>Lau y Pedro:Todo en tiempo y forma, excelente compra. </p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p><i class="fa-solid fa-location-pin"></i> Av. Siempreviva 123</p>
+        <p> <i class="fa-solid fa-phone"></i> 764 - 84377</p>
+        <a href="instagram.com"> <i class="fa-brands fa-square-instagram"></i> </a>
+        <a href="facebook.com"> <i class="fa-brands fa-square-facebook"></i> </a>
+    </footer>
+
+    <script src="assets/script.js" defer></script>
+
+</body>
+
+</html>
